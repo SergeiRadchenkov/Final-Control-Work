@@ -1,0 +1,89 @@
+  860  mkdir final_control_work
+
+  861  cd final_control_work/
+
+  862  cat > Pets.txt << EOF 
+
+Dogs
+
+Cats
+
+Hamsters
+
+EOF
+
+
+
+  863  cat > PackAnimals.txt << EOF
+
+Horses
+
+Camels
+
+Donkeys
+
+EOF
+
+
+
+  864  ls
+
+  865  car Pets.txt 
+
+  866  cat Pets.txt 
+
+  867  cat PackAnimals.txt 
+
+  868  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+
+  869  ls
+
+  870  rm HumanFriends.txt 
+
+  871  cat Pets.txt PackAnimals.txt > New_File.txt
+
+  872  cat New_File.txt 
+
+  873  mv New_File.txt HumanFriends.txt
+
+  874  ls
+
+  875  mkdir AnimalRecords
+
+  876  mv HumanFriends.txt AnimalRecords/
+
+  877  ls
+
+  878  cd AnimalRecords/
+
+  879  ls
+
+  880  cd ..
+
+  881  sudo apt update
+
+  882  sudo apt install mysql-server
+
+  883  sudo dpkg -i package.deb
+
+  884  cd ~/Downloads
+
+  885  cd ~/Загрузки
+
+  886  ls
+
+  887  sudo dpkg linux-firmware_20240318.git3b128b60-0ubuntu2_amd64.deb
+
+  888  sudo dpkg -i linux-firmware_20240318.git3b128b60-0ubuntu2_amd64.deb
+
+  889  ls
+
+  890  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+
+  891  sudo dpkg -r google-chrome-stable_current_amd64.deb 
+
+  892  htop
+
+  893  sudo dpkg -r google-chrome-stable 
+
+  894  history > command_history.txt
