@@ -204,12 +204,12 @@ public class AnimalRegistry {
         while (true) {
             if (scanner.hasNextInt()) {
                 choice = scanner.nextInt();
-                scanner.nextLine(); // consume newline
+                scanner.nextLine();
                 if (choice >= 1 && choice <= 6) {
                     break;
                 }
             } else {
-                scanner.nextLine(); // consume invalid input
+                scanner.nextLine();
             }
             System.out.print("Неверный выбор. Введите номер меню от 1 до 6: ");
         }
@@ -221,12 +221,12 @@ public class AnimalRegistry {
         while (true) {
             if (scanner.hasNextInt()) {
                 typeChoice = scanner.nextInt();
-                scanner.nextLine(); // consume newline
+                scanner.nextLine();
                 if (typeChoice >= 1 && typeChoice <= 6) {
                     break;
                 }
             } else {
-                scanner.nextLine(); // consume invalid input
+                scanner.nextLine();
             }
             System.out.print("Неверный выбор. Введите номер типа животного от 1 до 6: ");
         }
